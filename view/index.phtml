@@ -1,0 +1,37 @@
+<h1>ZF2 Assetic Examples module</h1>
+Below is an overview of all Zend 2 plugins. If everything went alright, you should see the text "Works" in green after each example.<br>
+<br>
+<table>
+	<tr>
+		<td>HeadLinkTest</td>
+		<td><span id="HeadLinkTest"></span></td>
+	</tr>
+	<tr>
+		<td>HeadStyleTest</td>
+		<td><span id="HeadStyleTest"></span></td>
+	</tr>
+	<tr>
+		<td>HeadLinkTestLess</td>
+		<td><span id="HeadLinkTestLess"></span></td>
+	</tr>
+	<tr>
+		<td>HeadScriptLinkTest</td>
+		<td><span id="HeadScriptLinkTest"></span></td>
+	</tr>
+	<tr>
+		<td>HeadScriptScriptTest</td>
+		<td><span id="HeadScriptScriptTest"></span></td>
+	</tr>
+	<tr>
+		<td>InlineScriptLinkTest</td>
+		<td><span id="InlineScriptLinkTest"></span></td>
+	</tr>
+	<tr>
+		<td>InlineScriptScriptTest</td>
+		<td><span id="InlineScriptScriptTest"></span></td>
+	</tr>
+</table>
+
+<?php echo $this->assetHelper()->injectAsset('InlineScriptLinkTest') . "\n"; ?>
+
+<?php echo $this->assetHelper()->injectAsset('InlineScriptScriptTest') . "\n"; ?>
