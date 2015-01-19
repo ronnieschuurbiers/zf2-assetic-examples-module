@@ -51,7 +51,7 @@ return array(
 	'zf2assetic' => array(
 		'assets' => array(
 			'css' => array(
-				'target' => 'css.css',
+				'target' => 'styles.css',
 				'viewHelper' => 'HeadLink',
 				'leafs' => array(
 					__DIR__ . '/../view/assets/css/css.css',
@@ -91,7 +91,7 @@ return array(
 				),
 			),
 			'HeadScriptLinkTest' => array(
-				'target' => 'scripts.js',
+				'target' => 'HeadScriptLinkTest.js',
 				'viewHelper' => 'HeadScript',
 				'leafs' => array(
 					__DIR__ . '/../view/assets/scripts/HeadScriptLinkTest.js',
@@ -119,7 +119,7 @@ return array(
 				),
 			),
 			'InlineScriptScriptTest' => array(
-				'target' => 'scripts4.js',
+				'target' => 'InlineScriptScriptTest.js',
 				'viewHelper' => 'InlineScript',
 				'leafs' => array(
 					__DIR__ . '/../view/assets/scripts/InlineScriptScriptTest.js',
